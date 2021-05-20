@@ -51,8 +51,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abc\QuestionA.cs" />
-    <Compile Include="Abc\QuestionB.cs" />
+    <Compile Include="Abc\Shift_only.cs" />
+    <Compile Include="Abc\Coins.cs" />
     <Compile Include="Abc\QuestionC.cs" />
     <Compile Include="Abc\QuestionD.cs" />
     <Compile Include="Abc\QuestionE.cs" />

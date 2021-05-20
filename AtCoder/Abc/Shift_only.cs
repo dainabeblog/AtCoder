@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace AtCoder.Abc
 {
     //https://atcoder.jp/contests/abc141/tasks/abc141_a
-    public class QuestionA
+    public class Shift_only
     {
         public static void Main(string[] args)
         {

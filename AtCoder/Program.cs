@@ -21,7 +21,8 @@ namespace AtCoder
 
         private static void Exec(string[] args)
         {
-            QuestionA
+            //実行するcllass指定
+            Coins
                 .Main(args);
         }
 
