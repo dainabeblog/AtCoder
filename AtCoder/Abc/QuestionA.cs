@@ -15,23 +15,35 @@ namespace AtCoder.Abc
             Console.SetOut(sw);
 
             // 文字列の入力
-            string s = Console.ReadLine();
+            //string s = Console.ReadLine();
 
             // 整数の入力
-            //long n = long.Parse(Console.ReadLine());
+            long lDataNum = long.Parse(Console.ReadLine());
 
             // 文字列配列の入力
             //string[] inputStrArray = Console.ReadLine().Split(' ');
 
             // 整数配列の入力
-            //var inputLongArray = Console.ReadLine().Split(' ').Select(i => long.Parse(i)).ToArray();
+            var inputLongArray = Console.ReadLine().Split(' ').Select(i => long.Parse(i)).ToArray();
 
+            bool bEvenFlag = true;
+            long lCount = 0;
+            long result = lCount;
 
-
-
-            string result = "aa: " + s;
-
-            Console.WriteLine(result);
+            while (bEvenFlag)
+            {
+                for (long i = 0; i < lDataNum; i++)
+                {
+                    if(inputLongArray[i] % 2 != 0)
+                    {
+                        bEvenFlag = false;
+                        Console.WriteLine(lCount);
+                        break;
+                    }
+                    inputLongArray[i] = inputLongArray[i] / 2;
+                }
+                lCount++;
+            }
 
             Console.Out.Flush();
         }
