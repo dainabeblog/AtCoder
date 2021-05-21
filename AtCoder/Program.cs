@@ -13,9 +13,11 @@ namespace AtCoder
         {
             while (true)
             {
-                Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+                //Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+
+
                 Exec(args);
-                Console.WriteLine("============ Retry ============");
+                Console.WriteLine("============ Retry  ============");
                 Console.Out.Flush();
             }
         }

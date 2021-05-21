@@ -34,18 +34,17 @@ namespace AtCoder.Abc
                 o = long.Parse(Console.ReadLine());
                 if (liListName.Contains(o))
                 {
-                    Console.WriteLine("{0}が見つかりました", o);
                 }
                 else
                 {
-                    Console.WriteLine("{0}は見つかりませんでした", o);
+                    liListName.Add(o);
                 }
             }
 
-
+            long lAnswer = liListName.Count();
             string result = "";
 
-            Console.WriteLine(result);
+            Console.WriteLine(lAnswer);
 
             Console.Out.Flush();
         }
