@@ -53,7 +53,7 @@
   <ItemGroup>
     <Compile Include="Abc\Shift_only.cs" />
     <Compile Include="Abc\Coins.cs" />
-    <Compile Include="Abc\QuestionC.cs" />
+    <Compile Include="Abc\SomeSums.cs" />
     <Compile Include="Abc\QuestionD.cs" />
     <Compile Include="Abc\QuestionE.cs" />
     <Compile Include="Abc\QuestionF.cs" />
