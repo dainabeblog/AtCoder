@@ -13,6 +13,7 @@ namespace AtCoder
         {
             while (true)
             {
+                Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
                 Exec(args);
                 Console.WriteLine("============ Retry ============");
                 Console.Out.Flush();
@@ -22,8 +23,7 @@ namespace AtCoder
         private static void Exec(string[] args)
         {
             //実行するcllass指定
-            SomeSums
-                .Main(args);
+            Kagami_Mochi.Main(args);
         }
 
         public class Debug

@@ -44,7 +44,7 @@ namespace AtCoder.Abc
                 lN_sum = 0;
             }
 
-            Console.WriteLine("answer: " + answer);
+            Console.WriteLine(answer);
             Console.Out.Flush();
         }
     }
