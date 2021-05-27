@@ -1,3 +1,3 @@
 # AtCoder
 
-AtCoder の実装・テストプロジェクトのテンプレート
+AtCoder Beginners Selection (ABS) の回答
