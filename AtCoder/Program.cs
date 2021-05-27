@@ -25,7 +25,7 @@ namespace AtCoder
         private static void Exec(string[] args)
         {
             //実行するcllass指定
-            Otoshidama.Main(args);
+            hakutyumu.Main(args);
         }
 
         public class Debug

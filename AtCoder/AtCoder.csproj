@@ -62,7 +62,7 @@
     <Compile Include="Abc\SomeSums.cs" />
     <Compile Include="Abc\Kagami_Mochi.cs" />
     <Compile Include="Abc\Otoshidama.cs" />
-    <Compile Include="Abc\QuestionF.cs" />
+    <Compile Include="Abc\hakutyumu.cs" />
     <Compile Include="Lib\Calc.cs" />
     <Compile Include="Lib\PrimeFactors.cs" />
     <Compile Include="Lib\PriorityQueue.cs" />
