@@ -53,41 +53,6 @@ namespace AtCoder.Abc
             }
             Console.WriteLine($"{x} {y} {z}");
 
-
-            //for (int i=0, I=i*10000; I<=Y; i++)
-            //{
-            //    for(int j=0, J=j*5000; J<=Y-I; j++)
-            //    {
-            //        if(0 <= N - (i + j))
-            //        {
-            //            int k = N - (i + j);
-            //            if(i*10000 + j*5000 + k*1000 == Y && i + j + k == N && 0<=k)
-            //            {
-            //                Console.WriteLine($"{i} {j} {k}");
-            //                bLieFlag = false;
-            //                b10000 = false;
-            //                b5000 = false;
-            //                break;
-            //            }
-            //        }
-            //    }
-            //    if (!b10000)
-            //    {
-            //        break;
-            //    }
-            //}
-
-            //if (bLieFlag)
-            //{
-            //    Console.WriteLine($"-1 -1 -1");
-            //}
-
-
-
-            //string result = "";
-
-            //Console.WriteLine(result);
-
             Console.Out.Flush();
         }
     }
