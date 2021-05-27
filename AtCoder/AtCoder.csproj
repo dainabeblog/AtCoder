@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="Abc\Shift_only.cs" />
     <Compile Include="Abc\Coins.cs" />
+    <Compile Include="Abc\Traveling.cs" />
     <Compile Include="Abc\SomeSums.cs" />
     <Compile Include="Abc\Kagami_Mochi.cs" />
     <Compile Include="Abc\Otoshidama.cs" />
