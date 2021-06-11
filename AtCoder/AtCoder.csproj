@@ -54,7 +54,7 @@
     <Compile Include="Abc\CrossSum_004.cs" />
     <Compile Include="Abc\ScoreSumQueries_010.cs" />
     <Compile Include="Abc\CubicCake_022.cs" />
-    <Compile Include="Abc\QuestionD.cs" />
+    <Compile Include="Abc\SelectOne_024.cs" />
     <Compile Include="Abc\QuestionE.cs" />
     <Compile Include="Abc\QuestionF.cs" />
     <Compile Include="Lib\Calc.cs" />

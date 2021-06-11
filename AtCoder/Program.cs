@@ -21,7 +21,7 @@ namespace AtCoder
 
         private static void Exec(string[] args)
         {
-            CubicCake_022
+            SelectOne_024
                 .Main(args);
         }
 
