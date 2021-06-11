@@ -21,7 +21,7 @@ namespace AtCoder
 
         private static void Exec(string[] args)
         {
-            CrossSum_004
+            ScoreSumQueries_010
                 .Main(args);
         }
 
