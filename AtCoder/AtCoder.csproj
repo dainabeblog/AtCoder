@@ -51,7 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abc\QuestionA.cs" />
+    <Compile Include="Abc\CrossSum_004.cs" />
     <Compile Include="Abc\QuestionB.cs" />
     <Compile Include="Abc\QuestionC.cs" />
     <Compile Include="Abc\QuestionD.cs" />
