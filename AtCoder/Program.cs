@@ -21,7 +21,7 @@ namespace AtCoder
 
         private static void Exec(string[] args)
         {
-            ScoreSumQueries_010
+            CubicCake_022
                 .Main(args);
         }
 
